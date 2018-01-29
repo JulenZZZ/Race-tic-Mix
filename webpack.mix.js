@@ -16,5 +16,10 @@ mix
 
   .js('resources/assets/js/app.js', 'public/js')
   .js('node_modules/jquery/dist/jquery.js', 'public/js')
-    .js('node_modules/sweetalert2/dist/sweeralert2.js', 'public/js')
+
    .sass('resources/assets/sass/app.scss', 'public/css');
+    mix.minify('public/js/app.js');
+    mix.minify('public/js/jquery.js');
+    mix.minify('public/js/sweetalert2.js');
+    mix.minify('public/css/sweetalert2.css');
+    mix.minify('public/css/estiloshome.css');

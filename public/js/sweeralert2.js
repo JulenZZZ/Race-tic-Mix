@@ -60,12 +60,12 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 48);
+/******/ 	return __webpack_require__(__webpack_require__.s = 44);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 48:
+/***/ 44:
 /***/ (function(module, exports, __webpack_require__) {
 
 (function webpackMissingModule() { throw new Error("Cannot find module \"/home/julen/Documents/Asier/Race-tic-master/node_modules/sweetalert2/dist/sweeralert2.js\""); }());
